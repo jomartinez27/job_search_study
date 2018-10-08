@@ -19,4 +19,7 @@ Explain how 'this' works in JavaScript.
 Explain how prototypal inheritance works:
     Prototypal inheritance: an object can point to another object and inherit all its properties. The main purpose is to allow multiple instances of an object to share common properties
 
-    
+What do you think of AMD vs CommonJs? 
+    AMD is better for browser, hence the name 'Asynchronous' as it loads each distinct module in async instead of loading in one large file. No extra steps are required to use AMD
+
+    CommonJs: is a standard mostly used in servers and it loads modules synchronously though extra step is required if you want your JS file size to be minified and compressed
